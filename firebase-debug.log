@@ -1,0 +1,84 @@
+[debug] [2024-02-21T20:08:58.171Z] ----------------------------------------------------------------------
+[debug] [2024-02-21T20:08:58.173Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Elite\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-21T20:08:58.174Z] CLI Version:   13.3.0
+[debug] [2024-02-21T20:08:58.174Z] Platform:      win32
+[debug] [2024-02-21T20:08:58.174Z] Node Version:  v20.10.0
+[debug] [2024-02-21T20:08:58.174Z] Time:          Wed Feb 21 2024 23:08:58 GMT+0300 (التوقيت العربي الرسمي)
+[debug] [2024-02-21T20:08:58.174Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-21T20:08:58.179Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-21T20:08:58.180Z] > authorizing via signed-in user (abdulrahmanalhetar777@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Elite\Desktop\ferebase\2127_little_fashion
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-21T20:10:59.995Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-02-21T20:11:01.040Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-02-21T20:11:01.040Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project alhetar (Alhetar) 
+[info] 
+=== Hosting Setup
+[debug] [2024-02-21T20:12:03.863Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/alhetar [none]
+[debug] [2024-02-21T20:12:04.511Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/alhetar 200
+[debug] [2024-02-21T20:12:04.511Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/alhetar {"projectId":"alhetar","projectNumber":"415701475383","displayName":"Alhetar","name":"projects/alhetar","resources":{"hostingSite":"alhetar"},"state":"ACTIVE","etag":"1_d6922f66-a45d-4723-909b-3b25d4da2f12"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-02-21T20:12:41.489Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-02-21T20:12:41.887Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-02-21T20:12:41.888Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.8.0","browserURL":"https://www.gstatic.com/firebasejs/10.8.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.8.0/firebase.tgz"},"live":{"version":"10.8","browserURL":"https://www.gstatic.com/firebasejs/live/10.8/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.8/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.8.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.8.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.8.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.8.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.8.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.8.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.8.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.8.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\Elite 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=116696250&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-02-21T20:14:54.248Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-02-21T20:14:54.248Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-02-21T20:14:55.093Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-02-21T20:14:55.093Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-02-21T20:14:55.106Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-02-21T20:14:55.812Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-02-21T20:14:55.812Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"AbdulrahmanAlhetar","id":111249657,"node_id":"U_kgDOBqGI-Q","avatar_url":"https://avatars.githubusercontent.com/u/111249657?v=4","gravatar_id":"","url":"https://api.github.com/users/AbdulrahmanAlhetar","html_url":"https://github.com/AbdulrahmanAlhetar","followers_url":"https://api.github.com/users/AbdulrahmanAlhetar/followers","following_url":"https://api.github.com/users/AbdulrahmanAlhetar/following{/other_user}","gists_url":"https://api.github.com/users/AbdulrahmanAlhetar/gists{/gist_id}","starred_url":"https://api.github.com/users/AbdulrahmanAlhetar/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AbdulrahmanAlhetar/subscriptions","organizations_url":"https://api.github.com/users/AbdulrahmanAlhetar/orgs","repos_url":"https://api.github.com/users/AbdulrahmanAlhetar/repos","events_url":"https://api.github.com/users/AbdulrahmanAlhetar/events{/privacy}","received_events_url":"https://api.github.com/users/AbdulrahmanAlhetar/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":13,"public_gists":0,"followers":0,"following":1,"created_at":"2022-08-14T20:33:04Z","updated_at":"2024-02-20T23:57:35Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":6498,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as AbdulrahmanAlhetar 
+[info] 
+[debug] [2024-02-21T20:18:50.980Z] >>> [apiv2][query] GET https://api.github.com/repos/C:\Users\Elite\Desktop\ferebase\2127_little_fashionC:\Users\Elite\Desktop\ferebase\2127_little_fashionC:\Users\Elite\Desktop\ferebase\2127_little_fashion/actions/secrets/public-key type=owner
+[debug] [2024-02-21T20:18:51.569Z] <<< [apiv2][status] GET https://api.github.com/repos/C:\Users\Elite\Desktop\ferebase\2127_little_fashionC:\Users\Elite\Desktop\ferebase\2127_little_fashionC:\Users\Elite\Desktop\ferebase\2127_little_fashion/actions/secrets/public-key 404
+[debug] [2024-02-21T20:18:51.570Z] <<< [apiv2][body] GET https://api.github.com/repos/C:\Users\Elite\Desktop\ferebase\2127_little_fashionC:\Users\Elite\Desktop\ferebase\2127_little_fashionC:\Users\Elite\Desktop\ferebase\2127_little_fashion/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-02-21T20:19:41.483Z] >>> [apiv2][query] GET https://api.github.com/repos/C:\Users\Elite\Desktop\ferebase\2127_little_fashionC:\Users\Elite\Desktop\ferebase\2127_little_fashionC:\Users\Elite\Desktop\ferebase\2127_little_fashions/actions/secrets/public-key type=owner
+[debug] [2024-02-21T20:19:42.049Z] <<< [apiv2][status] GET https://api.github.com/repos/C:\Users\Elite\Desktop\ferebase\2127_little_fashionC:\Users\Elite\Desktop\ferebase\2127_little_fashionC:\Users\Elite\Desktop\ferebase\2127_little_fashions/actions/secrets/public-key 404
+[debug] [2024-02-21T20:19:42.050Z] <<< [apiv2][body] GET https://api.github.com/repos/C:\Users\Elite\Desktop\ferebase\2127_little_fashionC:\Users\Elite\Desktop\ferebase\2127_little_fashionC:\Users\Elite\Desktop\ferebase\2127_little_fashions/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
